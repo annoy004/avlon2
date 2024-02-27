@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Main from './screens/Main'
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <h1 className="text-3xl underline">
-    Hello world!
-  </h1>
-       
+      <BrowserRouter>
+       <Main/>
+       </BrowserRouter>
   );
 }
 
